@@ -45,6 +45,8 @@ relationships = [
 
 Soit les deux listes suivantes : students et levels ces deux listes sont de même longueur et correspondent respectivement aux noms des étudiants et à leur niveau d'étude, à l'aide de la fonction zip et d'une itération affichez le nom et le niveau de chaque étudiant.
 
+Transformez cette liste en np.array et pensez à déterminer le type de ce dernier à l'aide de dtype.
+
 ```python
 students = [
     "Alan",
@@ -69,37 +71,39 @@ levels = [4,2,3,5,7,8,2,6,4,3,5, 7, 5]
 
 Ecrire une fonction qui retourne tous les utilisateurs qui partagent le même centre d'intérêt.
 
+Pensez à typer dans votre array pour stocker vos données les tuples suivants dans la liste, lors du passage de la liste vers le array de Numpy.
+
 ```python
 
 populations = [
-    { "id" : 0, "name" : "Alan" },
-    { "id" : 1, "name" : "Albert" },
-    { "id" : 2, "name" : "Jhon" },
-    { "id" : 3, "name" : "Brice" },
-    { "id" : 4, "name" : "Alexendra" },
-    { "id" : 5, "name" : "Brad" },
-    { "id" : 6, "name" : "Carl" },
-    { "id" : 7, "name" : "Dallas" },
-    { "id" : 8, "name" : "Dennis" },
-    { "id" : 9, "name" : "Edgar" },
-    { "id" : 10, "name" : "Erika" },
-    { "id" : 11, "name" : "Isaac" },
-    { "id" : 13, "name" : "Brice" },
-    { "id" : 14, "name" : "Alice" },
-    { "id" : 15, "name" : "Sophia" },
-    { "id" : 16, "name" : "Rasmus" },
-    { "id" : 18, "name" : "Taylor" },
-    { "id" : 19, "name" : "Olivia" },
-    { "id" : 20, "name" : "Jessica" },
-    { "id" : 21, "name" : "Anna" },
-    { "id" : 22, "name" : "Samantha" },
-    { "id" : 23, "name" : "Grace" },
-    { "id" : 24, "name" : "Anna" },
-    { "id" : 25, "name" : "Alexis" },
-    { "id" : 26, "name" : "Madison" },
-    { "id" : 27, "name" : "Nicole" },
-    { "id" : 28, "name" : "Amanda" },
-    { "id" : 29, "name" : "Haley" }  
+    (  0,  "Alan" ),
+    (  1,  "Albert" ),
+    (  2,  "Jhon" ),
+    (  3,  "Brice" ),
+    (  4,  "Alexendra" ),
+    (  5,  "Brad" ),
+    (  6,  "Carl" ),
+    (  7,  "Dallas" ),
+    (  8,  "Dennis" ),
+    (  9,  "Edgar" ),
+    (  10,  "Erika" ),
+    (  11,  "Isaac" ),
+    (  13,  "Brice" ),
+    (  14,  "Alice" ),
+    (  15,  "Sophia" ),
+    (  16,  "Rasmus" ),
+    (  18,  "Taylor" ),
+    (  19,  "Olivia" ),
+    (  20,  "Jessica" ),
+    (  21,  "Anna" ),
+    (  22,  "Samantha" ),
+    (  23,  "Grace" ),
+    (  24,  "Anna" ),
+    (  25,  "Alexis" ),
+    (  26,  "Madison" ),
+    (  27,  "Nicole" ),
+    (  28,  "Amanda" ),
+    (  29,  "Haley" )  
 ]
 
 centers = [
