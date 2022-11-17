@@ -6,7 +6,7 @@ Récupérez les données dans l'énoncé de l'exercice ci-après.
 
 1. Modifiez la liste populations pour ajouter les relations (liste relationships) de chaque user de cette population, vous pouvez par exemple ajoutez une clé "relation" ainsi qu'une liste vide dans un premier temps. Puis placez les relations de chaque user dans la liste populations en utilisant relationships.
 
-2. Calculer la moyenne des relations.
+2. Calculer la moyenne des relations. Trouvez dans le array numpy la personne ayant la meilleur moyenne.
 
 3. Créez une liste représentant les users (id) et le nombre de relation(s) qu'ils possèdent. Et retournez l'utilisateur qui possède le plus de relation(s).
 
