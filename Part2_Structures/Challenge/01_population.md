@@ -47,6 +47,8 @@ Soit les deux listes suivantes : students et levels ces deux listes sont de mêm
 
 Transformez cette liste en np.array et pensez à déterminer le type de ce dernier à l'aide de dtype.
 
+Rmq : le zip en Numpy pour deux array est la méthode dstack de l'objet np.array
+
 ```python
 students = [
     "Alan",
