@@ -6,17 +6,17 @@ Talend est un véritable outils comportant un grand nombre de fonctionnalités c
 
 Pour installer Talend il faut installer la SDK Java. Puis installez à partir du site Talend le logiciel.
 
-## Job et Métadonnées
+## 01 Exercice Job et Métadonnées
 
 Créez une métadonnées Fichier Excel à partir du fichier Client.xls. Puis créez une métadonnées de type Client MySQL. 
 
 1. Créez un fichier métadonnées (un schéma), voir le plan de ce shéma ci-dessous, et créez un job qui permet de voir les données que l'on aura extrait tLogRow objet Talend qui permet de voir les données s'afficher.
 
-2. Mappez les données pour les préparer, avant de les afficher avec le tLogRow.
+2. Mappez les données pour les préparer (input/output), avant de les afficher avec le tLogRow.
 
-3. Une fois les données mappées et affichées (pour contrôle), enregistrez ces données dans la table clients de la bd school, qui correspond au format des données du fichier Excel, propagation du schéma.
+3. Une fois les données mappées et affichées (pour contrôle tLogRow), enregistrez ces données dans la table clients de la bd school (tDBOutput), qui correspond au format des données du fichier Excel, propagation du schéma.
 
-4. Enregistrez maintenant les données dans un fichier tFileJson.
+4. Enregistrez maintenant les données dans un fichier tFileJson (le schéma sera propagé, ce n'est pas la peine de s'en soucier en sortie).
 
 Maintenant, vous allez créer un Job permettant d'extraire les données du fichier xls vers (création) un fichier JSON et une table d'une base de données.
 
@@ -35,10 +35,10 @@ Voici le schéma du premier Job que nous allons créer.
 [sql](./images/job_sql_json_xls.png)
 
 
-## Fichier CSV vers un fichier JSON
+## 02 Exercice Fichier CSV vers un fichier JSON
 
-Créez un tFileInputDelimiter pour définir les données à importer dans le Job qui va nous permettre de transformer le fichier CSV en un fichier JSON (tFileOutputJSON)
+Créez un tFileInputDelimiter dans les métadonnées (fichier de type csv) pour définir les données à importer dans le Job qui va nous permettre de transformer le fichier CSV en un fichier JSON (tFileOutputJSON)
 
 Définissez dans les métadonnées ce fichier de type délimiteur (métadonnées) puis créez les éléments dans un nouveau Job à partir de ces métadonnées pour répondre à la question posée.
 
-## Fichier SQL vers une sortie log puis vers un nouvelle table
+## 03 Exercice Fichier SQL vers une sortie log puis vers un nouvelle table
