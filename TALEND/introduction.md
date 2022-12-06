@@ -42,3 +42,18 @@ Créez un tFileInputDelimiter dans les métadonnées (fichier de type csv) pour 
 Définissez dans les métadonnées ce fichier de type délimiteur (métadonnées) puis créez les éléments dans un nouveau Job à partir de ces métadonnées pour répondre à la question posée.
 
 ## 03 Exercice Fichier SQL vers une sortie log puis vers un nouvelle table
+
+Créez un champ **notes** JSON dans la table clients et ajoutez les notes suivantes à l'aide du code suivant (dans cet exemple les étudiants ont la même note).
+
+```sql
+UPDATE
+    `clients`
+SET
+    `notes` = ('{"note1": 16, "note2": 17, "note3" : 10 }')
+```
+
+1. Mettre à jour les données
+
+2. Mapper correctement les données pour calculer la moyenne et insérer cette moyenne dans la nouvelle table.
+
+Indication avant de faire l'enregistrement pensez à faire des tLogRow pour voir les données.
