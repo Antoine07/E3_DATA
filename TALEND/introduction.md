@@ -12,11 +12,13 @@ Créez une métadonnées Fichier Excel à partir du fichier Client.xls. Puis cr�
 
 1. Créez un fichier métadonnées (un schéma), voir le plan de ce shéma ci-dessous, et créez un job qui permet de voir les données que l'on aura extrait tLogRow objet Talend qui permet de voir les données s'afficher.
 
-2. Mappez les données pour les préparer, avant de les afficher avec le Log.
+2. Mappez les données pour les préparer, avant de les afficher avec le tLogRow.
 
-3. Une fois les données mappées et affichées (pour contrôle), enregistrez ces données dans la table clients qui correspond au format des données du fichier Excel, propagation du schéma
+3. Une fois les données mappées et affichées (pour contrôle), enregistrez ces données dans la table clients de la bd school, qui correspond au format des données du fichier Excel, propagation du schéma.
 
-Maintenant vous allez créer un Job permettant d'extraire les données du fichier xls vers (création) un fichier JSON et une table d'une base de données.
+4. Enregistrez maintenant les données dans un fichier tFileJson.
+
+Maintenant, vous allez créer un Job permettant d'extraire les données du fichier xls vers (création) un fichier JSON et une table d'une base de données.
 
 - Créez un fichier dans votre espace de travail et une base de données dans MySQL school et une table clients avec les champs suivants :
 
