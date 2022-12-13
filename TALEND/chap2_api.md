@@ -2,13 +2,15 @@
 
 ## Récupération des données
 
+API GET pour récupérer les données
+
 ```txt
 https://restcountries.com/v2/callingcode/33
 ```
 
 ## 1. Créez un fichier JSON dans la partie meta
 
-Formatez vos données en récupérant uniquement le nom du Pays, de la monnaie, de son symbole et le code.
+Formatez vos données en récupérant uniquement le nom du Pays la monnaie, son symbole et le code du pays.
 
 ## 2. tREST
 

@@ -44,6 +44,8 @@ from
 JSON_TABLE crée une table à partir d'un champ de type JSON
 $ désigne le document JSON
 
+JSON_TABLE crée une table SQL sur laquelle on pourra faire une jointure 
+
 """
 
 SELECT
@@ -93,3 +95,4 @@ from
             price decimal(8, 2) path '$.price'
         )
     ) as jt;
+
