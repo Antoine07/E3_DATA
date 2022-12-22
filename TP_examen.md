@@ -71,9 +71,9 @@ Créez des diagrammes en fonction des questions posées ci-dessous.
 1. Quelles est le pourcentage de personnes qui ont survécu.
 
 2. En fonction de l'âge comment se répartisse les survivants et non survivants en fonction de :
-    2.1 de la classe
-    2.2 du sex
-    2.3 du sex et de la classe.
+- de la classe
+- du sex
+- du sex et de la classe.
 
 3. Dans le dataset des iris utilisez un diagramme en moustache pour mettre en évidence leurs dispersions en fonction de la largeur, puis de la longueur des sépales. Et enfin même chose pour les pétales.
 
